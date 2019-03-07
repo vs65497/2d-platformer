@@ -1,6 +1,8 @@
 # 2d-platformer
 Practice project: 2d platformer with player controls. Uses Javascript ES5 and Canvas.
 
+Von Simmons, January 2019
+
 Controls (Arrow keys): Left, Right, Up (Jump)
 
 This one was quite a challenge. In my initial attempt I didn't really think through how to implement gravity. What (I thought) started as an easy obstacle snowballed into a much harder series of concepts. Gravity required me to not only check the boundaries of the Canvas, but also when the player object "landed" on another object - otherwise known as collision detection. It also presented issues with movement controls. What can a player do when they are "falling"? When can they jump again after ceasing to fall? What happens if they try to change directions when they are airborne? 
